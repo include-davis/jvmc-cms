@@ -30,3 +30,6 @@ next-env.d.ts
 
 # Local Netlify folder
 .netlify
+
+# auto-generated migrations
+database/migrations/*update*
