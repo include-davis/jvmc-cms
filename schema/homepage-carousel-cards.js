@@ -14,6 +14,12 @@ cards
     required: true,
   })
   .createField({
+    name: 'image_alt_text',
+    displayName: 'Image Alt Text',
+    type: FieldType.SHORT_TEXT,
+    required: true
+  })
+  .createField({
     name: 'title',
     displayName: 'Title',
     type: FieldType.SHORT_TEXT,
