@@ -15,7 +15,7 @@ cards
   })
   .createField({
     name: 'image_alt_text',
-    displayName: 'Image Alt Text',
+    displayName: 'Alternate Text for the Image Above',
     type: FieldType.SHORT_TEXT,
     required: true
   })
