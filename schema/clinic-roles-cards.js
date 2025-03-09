@@ -36,6 +36,12 @@ clinicRolesCards
     displayName: 'Icon (Paste SVG code here)',
     type: FieldType.SHORT_TEXT,
     required: true,
+  })
+  .createField({
+    name: 'icon_alt_text',
+    displayName: 'Alternative Text for the Icon Above',
+    type: FieldType.SHORT_TEXT,
+    required: true,
   });
 
 module.exports = clinicRolesCards;

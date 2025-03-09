@@ -26,7 +26,7 @@ aboutUsCards
     required: true,
   })
   .createField({
-    name: 'image-alt-text',
+    name: 'image_alt_text',
     displayName: 'Alternate Text for the Image Above',
     type: FieldType.SHORT_TEXT,
     required: true,
