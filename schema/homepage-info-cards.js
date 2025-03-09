@@ -1,3 +1,5 @@
+const { ContentType, FieldType } = require('@include/hearth');
+
 const homepageInfoCards = new ContentType({
   name: 'homepage-info-cards',
   singularDisplayName: 'Home Page Info Card',

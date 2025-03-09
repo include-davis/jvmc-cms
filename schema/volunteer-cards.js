@@ -1,3 +1,5 @@
+const { ContentType, FieldType } = require('@include/hearth');
+
 const volunteerCards = new ContentType({
   name: 'volunteer-cards',
   singularDisplayName: 'Volunteer Card',
