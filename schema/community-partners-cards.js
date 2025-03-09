@@ -1,9 +1,9 @@
 const { ContentType, FieldType } = require('@include/hearth');
 
 const cards = new ContentType({
-  name: 'calendar-cards',
-  singularDisplayName: 'Calendar Card',
-  pluralDisplayName: 'Calendar Cards',
+  name: 'community-cards',
+  singularDisplayName: 'Community Card',
+  pluralDisplayName: 'Community Cards',
 });
 
 cards
@@ -53,7 +53,7 @@ cards
     name: 'image_alt_text',
     displayName: 'Alternate Text for the Image Above',
     type: FieldType.SHORT_TEXT,
-    required: true
+    required: true,
   });
 
 module.exports = cards;
