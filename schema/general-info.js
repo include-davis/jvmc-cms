@@ -33,7 +33,7 @@ general
   .createField({
     name: 'volunteer_page_description (Volunteer Page)',
     displayName: 'Volunteer Page Description',
-    type: FieldType.SHORT_TEXT,
+    type: FieldType.LONG_TEXT,
     required: true,
   })
   .createField({
