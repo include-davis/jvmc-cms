@@ -33,8 +33,8 @@ clinicRolesCards
   })
   .createField({
     name: 'icon',
-    displayName: 'Icon (Paste SVG code here)',
-    type: FieldType.SHORT_TEXT,
+    displayName: 'Icon Image (ONLY ONE)',
+    type: FieldType.MEDIA_LIST,
     required: true,
   })
   .createField({
