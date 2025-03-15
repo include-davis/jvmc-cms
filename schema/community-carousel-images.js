@@ -2,15 +2,15 @@ const { ContentType, FieldType } = require('@include/hearth');
 
 const carouselImages = new ContentType({
   name: 'community-carousel-images',
-  singularDisplayName: 'Community Partners Carousel Image',
-  pluralDisplayName: 'Community Partners Carousel Images',
+  singularDisplayName: 'Community Partners Carousel Image (HAVE AT LEAST 4)',
+  pluralDisplayName: 'Community Partners Carousel Images (HAVE AT LEAST 4)',
 });
 
 carouselImages
   .createField({
     name: 'image',
     displayName: 'Image (ONLY ONE)',
-    type: FieldType.MEDIA,
+    type: FieldType.MEDIA_LIST,
     required: true,
   })
   .createField({
