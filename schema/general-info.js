@@ -7,7 +7,7 @@ const general = new ContentType({
 
 general
   .createField({
-    name: 'tagline (Home Page)',
+    name: 'tagline',
     displayName: 'Home Page Tagline',
     type: FieldType.SHORT_TEXT,
     required: true,
