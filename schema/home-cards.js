@@ -1,12 +1,12 @@
 const { ContentType, FieldType } = require('@include/hearth');
 
-const homepageInfoCards = new ContentType({
-  name: 'homepage-info-cards',
+const homeCards = new ContentType({
+  name: 'home-cards',
   singularDisplayName: 'Home Page Info Card',
   pluralDisplayName: 'Home Page Info Cards',
 });
 
-homepageInfoCards
+homeCards
   .createField({
     name: 'title',
     displayName: 'Title',
@@ -33,9 +33,15 @@ homepageInfoCards
   })
   .createField({
     name: 'icon',
-    displayName: 'Card Icon (Paste SVG code here)',
+    displayName: 'Icon next to Title (ONLY ONE)',
+    type: FieldType.MEDIA_LIST,
+    required: true,
+  })
+  .createField({
+    name: 'icon_alt_text',
+    displayName: 'Alternate Text for the Icon Above',
     type: FieldType.SHORT_TEXT,
     required: true,
   });
 
-module.exports = homepageInfoCards;
+module.exports = homeCards;
