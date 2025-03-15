@@ -25,13 +25,13 @@ general
     required: true,
   })
   .createField({
-    name: 'appointment_instruction (Contact Us Page)',
-    displayName: 'Appointment Instruction',
+    name: 'appointment_instruction',
+    displayName: 'Contact Page Appointment Instruction',
     type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
-    name: 'volunteer_page_description (Volunteer Page)',
+    name: 'volunteer_page_description',
     displayName: 'Volunteer Page Description',
     type: FieldType.LONG_TEXT,
     required: true,
