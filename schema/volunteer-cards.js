@@ -33,7 +33,13 @@ volunteerCards
   })
   .createField({
     name: 'icon',
-    displayName: 'Icon (Paste SVG code here)',
+    displayName: 'Icon (ONLY ONE)',
+    type: FieldType.MEDIA_LIST,
+    required: true,
+  })
+  .createField({
+    name: 'icon-alt-text',
+    displayName: 'Alternate Text for the Icon Above',
     type: FieldType.SHORT_TEXT,
     required: true,
   })
