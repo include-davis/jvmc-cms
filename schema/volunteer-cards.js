@@ -26,7 +26,7 @@ volunteerCards
     required: true,
   })
   .createField({
-    name: 'image-alt-text',
+    name: 'image_alt_text',
     displayName: 'Alternate Text for the Image Above',
     type: FieldType.SHORT_TEXT,
     required: true,
@@ -38,20 +38,14 @@ volunteerCards
     required: true,
   })
   .createField({
-    name: 'icon-alt-text',
+    name: 'icon_alt_text',
     displayName: 'Alternate Text for the Icon Above',
     type: FieldType.SHORT_TEXT,
     required: true,
   })
   .createField({
-    name: 'button',
-    displayName: 'Button (Text for button)',
-    type: FieldType.SHORT_TEXT,
-    required: false,
-  })
-  .createField({
-    name: 'button-url',
-    displayName: 'Button URL Link',
+    name: 'button_text_and_link',
+    displayName: 'Action Button Text and Link (Separate by Comma)',
     type: FieldType.SHORT_TEXT,
     required: false,
   });
