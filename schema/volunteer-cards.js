@@ -47,7 +47,13 @@ volunteerCards
     name: 'button',
     displayName: 'Button (Text for button)',
     type: FieldType.SHORT_TEXT,
-    required: true,
+    required: false,
+  })
+  .createField({
+    name: 'button-url',
+    displayName: 'Button URL Link',
+    type: FieldType.SHORT_TEXT,
+    required: false,
   });
 
 module.exports = volunteerCards;
