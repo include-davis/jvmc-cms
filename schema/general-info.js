@@ -7,8 +7,14 @@ const general = new ContentType({
 
 general
   .createField({
-    name: 'tagline',
-    displayName: 'Home Page Tagline',
+    name: 'tagline_mobile',
+    displayName: 'Home Page Mobile Tagline',
+    type: FieldType.SHORT_TEXT,
+    required: true,
+  })
+  .createField({
+    name: 'tagline_desktop',
+    displayName: 'Home Page Desktop Tagline',
     type: FieldType.SHORT_TEXT,
     required: true,
   })
